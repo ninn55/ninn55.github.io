@@ -65,22 +65,22 @@ header-img: "img/post-bg-rwd.jpg"
     function _render(){
         var _hash = window.location.hash;
         // en
-        if(_hash == "#zh"){
-            $select.selectedIndex = 1;
-            $zh.style.display = "block";
-            $en.style.display = "none";
-        // en by default
-        }else{
-            // not trigger onChange, otherwise cause a loop call.
+        if(_hash == "#en"){
             $select.selectedIndex = 0;
             $en.style.display = "block";
             $zh.style.display = "none";
+        // en by default
+        }else{
+            // not trigger onChange, otherwise cause a loop call.
+            $select.selectedIndex = 1;
+            $zh.style.display = "block";
+            $en.style.display = "none";
         }
     }
 
     // handle select change
     function onLanChange(index){
-        if(index == 0){
+        if(index == 1){
             window.location.hash = "#zh"
         }else{
             window.location.hash = "#en"
