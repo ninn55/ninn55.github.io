@@ -5,36 +5,8 @@ description: "YO. Its your boy ninn."
 header-img: "img/post-bg-rwd.jpg"
 ---
 
-<!-- Language Selector -->
-<!-- <select class="sel-lang" onchange= "onLanChange(this.options[this.options.selectedIndex].value)">
-    <option value="1" selected> 英文 English </option>
-    <option value="0"> 中文 Chinese </option>
-</select> -->
+<div>
 
-<!-- Chinese Version -->
-<div class="zh post-container">
-
-    <!--copied from markdown -->
-    <blockquote><p>永远学习</p></blockquote>
-
-    <p>Yo，我是<strong>WNiu(ninn55)</strong>，一个学生。</p>
-
-    <p>在科研与开发之外，热爱美剧与FPS游戏。</p>
-
-    <p>这是我的利用BY的方法建立的个人博客。</p>
-
-    <p></p>
-    
-    <h5>Talks</h5>
-
-    <ul>
-        <li><a href="https://github.com">GitHub</a></li>
-        <li><a href="http://jekyll.com.cn/">jekyll</a></li>
-    </ul>
-</div>
-
-<!-- English Version -->
-<!-- <div class="en post-container">
     <blockquote><p>Still Learning</p></blockquote>
 
     <p>Hi, I am <strong>WNiu</strong>, i.e. ninn55. I am somewhat a hard working student.</p>
@@ -49,45 +21,6 @@ header-img: "img/post-bg-rwd.jpg"
     <li><a href="https://github.com">GitHub</a></li>
     <li><a href="http://jekyll.com.cn/">jekyll</a></li>
     </ul>
-</div> -->
+</div>
 
-<!-- Handle Language Change -->
-<script type="text/javascript">
-    // get nodes
-    var $zh = document.querySelector(".zh");
-    var $en = document.querySelector(".en");
-    var $select = document.querySelector("select");
-
-    // bind hashchange event
-    window.addEventListener('hashchange', _render);
-
-    // handle render
-    function _render(){
-        var _hash = window.location.hash;
-        // en
-        if(_hash == "#en"){
-            $select.selectedIndex = 0;
-            $en.style.display = "block";
-            $zh.style.display = "none";
-        // en by default
-        }else{
-            // not trigger onChange, otherwise cause a loop call.
-            $select.selectedIndex = 1;
-            $zh.style.display = "block";
-            $en.style.display = "none";
-        }
-    }
-
-    // handle select change
-    function onLanChange(index){
-        if(index == 1){
-            window.location.hash = "#zh"
-        }else{
-            window.location.hash = "#en"
-        }
-    }
-
-    // init
-    _render();
-</script>
 
