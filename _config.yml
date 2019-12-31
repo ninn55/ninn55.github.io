@@ -92,4 +92,8 @@ service-worker: true
 
 # Friends
 friends: [
+{
+    title: "Friend wanted(＠´＿｀＠)",
+    href: ""
+}
 ]
