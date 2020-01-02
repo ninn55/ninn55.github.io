@@ -353,3 +353,7 @@ section:last-child {
 	-moz-animation-delay: 0, 2.5s;
 	animation-delay: 0, 2.5s;
 }
+
+.lst ul li {
+	list-style-type: circle;
+}
