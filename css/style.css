@@ -80,7 +80,7 @@ p {
 }
 
 #contactDetails ul li {
-	margin-bottom: 3px;
+	margin-bottom: 2px;
 	color: #444;
 }
 
@@ -353,3 +353,4 @@ section:last-child {
 	-moz-animation-delay: 0, 2.5s;
 	animation-delay: 0, 2.5s;
 }
+
