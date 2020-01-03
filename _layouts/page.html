@@ -206,7 +206,12 @@ layout: default
                             
                         </ul>
                         {% if site.email %}
-                            <p>✉️ {{site.email}}</p>
+                            <p>
+                                <span class = "fa-stack" style = "font-size: 0.7em;">
+                                    <i class="fa fa-envelope fa-stack-1x"></i>
+                                </span>
+                                <a href="mailto:{{site.email}}" target="_blank">{{site.email}}</a>
+                            </p>
                         {% endif %}
                     </div>
                 </section>
