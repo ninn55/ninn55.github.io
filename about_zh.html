@@ -1,20 +1,49 @@
 ---
-layout: cv
+layout: null
 title: "关于我"
 ---
 
 <!DOCTYPE html>
 <html>
+<style>
+	.fa-stack {
+		font-size: 0.7em;
+	}
+
+	.fa-stack-1 {
+		font-size: 0.4em;
+	}
+</style>
 
 <head>
-	<title>Joe Bloggs - Curriculum Vitae</title>
+	<title>WNiu - CV</title>
 
 	<meta name="viewport" content="width=device-width" />
 	<meta name="description" content="The Curriculum Vitae of Joe Bloggs." />
 	<meta charset="UTF-8">
+	
+	<!-- Web App Manifest -->
+    <link rel="manifest" href="{{ site.baseurl }}/pwa/manifest.json">
 
-	<link type="text/css" rel="stylesheet" href="{{ "/css/style.css" | prepend: site.baseurl }}">
-	<link href='//fonts.googleapis.com/css?family=Rokkitt:400,700|Lato:400,300' rel='stylesheet' type='text/css'>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="{{ site.baseurl }}/img/favicon.ico">
+
+    <!-- Safari Webpage Icon    by-BY -->
+    <link rel="apple-touch-icon" href="{{ site.baseurl }}/img/apple-touch-icon.png">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+
+    <!-- Custom Fonts -->
+    <!-- <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"> -->
+    <!-- Hux change font-awesome CDN to qiniu -->
+    <link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+
+	<!--link type="text/css" rel="stylesheet" href="style.css"-->
+	<link type="text/css" rel="stylesheet" href="{{ "/css/style.css" | prepend: site.baseurl }}" media="all">
+	<link href='https://fonts.googleapis.com/css?family=Rokkitt:400,700|Lato:400,300' rel='stylesheet' type='text/css'
+		media="all">
 
 	<!--[if lt IE 9]>
 <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -26,8 +55,9 @@ title: "关于我"
 		<div class="mainDetails">
 
 			<div id="name">
-				<h1 class="quickFade delayTwo">Joe Bloggs</h1>
-				<h2 class="quickFade delayThree">Job Title</h2>
+				<h1 class="quickFade delayTwo">牛*旭</h1>
+				<h2 class="quickFade delayThree">软件工程师</h2>
+				<h2 class="quickFade delayThree">算法工程师</h2>
 			</div>
 
 			<div id="contactDetails" class="quickFade delayFour">
@@ -43,6 +73,12 @@ title: "关于我"
 							<i class="fa fa-globe fa-stack-1x"></i>
 						</span>
 						<a href="https://ninn55.github.io">ninn55.github.io</a>
+					</li>
+					<li>
+						<span class="fa-stack">
+							<i class="fa fa-github fa-stack-1x"></i>
+						</span>
+						<a href="https://github.com/ninn55">ninn55</a>
 					</li>
 					<li>
 						<span class="fa-stack">
@@ -68,78 +104,6 @@ title: "关于我"
 		</div>
 
 		<div id="mainArea" class="quickFade delayFive">
-			<section>
-				<article>
-					<div class="sectionTitle">
-						<h1>Personal Profile</h1>
-					</div>
-
-					<div class="sectionContent">
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dolor metus, interdum at
-							scelerisque in, porta at lacus. Maecenas dapibus luctus cursus. Lorem ipsum dolor sit amet,
-							consectetur adipiscing elit. Donec ultricies massa et erat luctus hendrerit. Curabitur non
-							consequat enim. Vestibulum bibendum mattis dignissim. Proin id sapien quis libero interdum
-							porttitor.</p>
-					</div>
-				</article>
-				<div class="clear"></div>
-			</section>
-
-
-			<section>
-				<div class="sectionTitle">
-					<h1>Work Experience</h1>
-				</div>
-
-				<div class="sectionContent">
-					<article>
-						<h2>Job Title at Company</h2>
-						<p class="subDetails">April 2011 - Present</p>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies massa et erat luctus
-							hendrerit. Curabitur non consequat enim. Vestibulum bibendum mattis dignissim. Proin id
-							sapien quis libero interdum porttitor.</p>
-					</article>
-
-					<article>
-						<h2>Job Title at Company</h2>
-						<p class="subDetails">Janruary 2007 - March 2011</p>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies massa et erat luctus
-							hendrerit. Curabitur non consequat enim. Vestibulum bibendum mattis dignissim. Proin id
-							sapien quis libero interdum porttitor.</p>
-					</article>
-
-					<article>
-						<h2>Job Title at Company</h2>
-						<p class="subDetails">October 2004 - December 2006</p>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies massa et erat luctus
-							hendrerit. Curabitur non consequat enim. Vestibulum bibendum mattis dignissim. Proin id
-							sapien quis libero interdum porttitor.</p>
-					</article>
-				</div>
-				<div class="clear"></div>
-			</section>
-
-
-			<section>
-				<div class="sectionTitle">
-					<h1>Key Skills</h1>
-				</div>
-
-				<div class="sectionContent">
-					<ul class="keySkills">
-						<li>A Key Skill</li>
-						<li>A Key Skill</li>
-						<li>A Key Skill</li>
-						<li>A Key Skill</li>
-						<li>A Key Skill</li>
-						<li>A Key Skill</li>
-						<li>A Key Skill</li>
-						<li>A Key Skill</li>
-					</ul>
-				</div>
-				<div class="clear"></div>
-			</section>
-
 
 			<section>
 				<div class="sectionTitle">
@@ -148,33 +112,203 @@ title: "关于我"
 
 				<div class="sectionContent">
 					<article>
-						<h2>College/University</h2>
-						<p class="subDetails">Qualification</p>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies massa et erat luctus
-							hendrerit. Curabitur non consequat enim.</p>
+						<h2>电子科技大学</h2>
+						<p class="subDetails">工学学士</p>
+						<p>绩点: 3.62/4.00; 4级: 513/710; 6级: 474/710; 4级口语: B;
+							计算机二级证书 C;
+						</p>
 					</article>
 
 					<article>
-						<h2>College/University</h2>
-						<p class="subDetails">Qualification</p>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies massa et erat luctus
-							hendrerit. Curabitur non consequat enim.</p>
+						<h2>香港科技大学</h2>
+						<p class="subDetails">MSc ICDE</p>
+						<p>托福: 91/120; GRE: 314+2.5;</p>
 					</article>
 				</div>
 				<div class="clear"></div>
 			</section>
 
+			<section>
+				<div class="sectionTitle">
+					<h1>关键技能</h1>
+				</div>
+
+				<div class="sectionContent">
+					<ul class="keySkills">
+						<li>科学计算/高性能计算</li>
+						<li>计算机视觉</li>
+						<li>机器学习算法</li>
+					</ul>
+				</div>
+				<div class="clear"></div>
+			</section>
+
+			<section>
+				<div class="sectionTitle">
+					<h1>奖励</h1>
+				</div>
+
+				<div class="sectionContent">
+					<ul id="ranks">
+						<li>
+							<h3>人民一等奖学金 | 电子科技大学 </h3>
+							<div class="subDetails">12月, 2016</div>
+						</li>
+						<li>
+							<h3>四川省二等奖 | 数学建模国赛 </h3>
+							<p class="subDetails">9月, 2017</p>
+						</li>
+						<li>
+							<h3>M奖 (前10%) | 数学建模美赛 MCM/ICM </h3>
+							<p class="subDetails">1月, 2018</p>
+						</li>
+					</ul>
+				</div>
+				<div class="clear"></div>
+			</section>
+
+			<section>
+				<div class="sectionTitle">
+					<h1>工作经验</h1>
+				</div>
+
+				<div class="sectionContent">
+					<article>
+						<h2>软件工程师</h2>
+						<p class="subDetails">维塔士成都 | July. 2018 - Oct. 2018</p>
+						<ul id="ranks">
+							<li>
+								
+								<i style="vertical-align: middle;">进行了各种基本SE培训, 参与了多个知名AAA游戏的开发</i>
+							</li>
+							<li>
+								
+								<i style="vertical-align: middle;">研发不同的工具</i>
+							</li>
+						</ul>
+					</article>
+
+					<article>
+						<h2>算法工程师</h2>
+						<p class="subDetails">糖果科技 | July 2016 - Sep. 2016</p>
+						<ul id="ranks">
+							<li>
+								
+								<i style="vertical-align: middle;">利用深度学习，概率，灰色系统等知识建模，预测收费站车流</i>
+							</li>
+						</ul>
+					</article>
+
+					<article>
+						<h2>研发实习</h2>
+						<p class="subDetails">中国移动成都研究院 | Feb. 2019 - June. 2019</p>
+						<ul id="ranks">
+							<li>
+								
+								<i style="vertical-align: middle;">对AI ASIC、智能无人机、IoT进行初期市场调查。</i>
+							</li>
+							<li>
+								
+								<i style="vertical-align: middle;">实现一个边缘AI管理系统利用vue.js, Java与PiM 对AI加速器</i>
+							</li>
+						</ul>
+					</article>
+
+					<article>
+						<h2>研发</h2>
+						<p class="subDetails">本科科研, 计算机视觉课题组, 电子科技大学 | Feb. 2019 - June.
+							2019</p>
+						<ul id="ranks">
+							<li>
+								
+								<i style="vertical-align: middle;">
+									在Jetson TX2上实现一个高效实时的目标检测系统</i>
+							</li>
+							<li>
+								
+								<i style="vertical-align: middle;">
+									系统包括利用好caffe实现的mobilenet优化yolov2与CAN主线输出、GStreamer管线等
+								</i>
+							</li>
+						</ul>
+					</article>
+
+					<article>
+						<h2>研发</h2>
+						<p class="subDetails">本科科研, 光电学院, 电子科技大学 | Feb. 2018 - June.
+							2018</p>
+						<ul id="ranks">
+							<li>
+								
+								<i style="vertical-align: middle;">
+									利用opengl与mfc的光栅投射3D重建系统的软件实现	
+								</i>
+							</li>
+						</ul>
+					</article>
+
+					<article>
+						<h2>威富视界</h2>
+						<p class="subDetails"> | Oct. 2019 - Jan. 2020</p>
+						<ul id="ranks">
+							<li>
+								
+								<i style="vertical-align: middle;">
+									开发基于Slowfast视频流识别算法
+								</i>
+							</li>
+							<li>
+								
+								<i style="vertical-align: middle;">
+									开发完整数据标注工具链用于预标注标注验证ava结构的数据集
+								</i>
+							</li>
+							<li>
+								
+								<i style="vertical-align: middle;">
+									开发网络爬虫系统从动态网站上提取视频与标签
+								</i>
+							</li>
+						</ul>
+					</article>
+
+					<article>
+						<h2>Trainee</h2>
+						<p class="subDetails">IDM2 Micro Electronics Node(MEN) FPGA Training | Sep. 2019 - Dec. 2019</p>
+						<ul id="ranks">
+							<li>
+								
+								<i style="vertical-align: middle;">
+									嵌入式机器视觉与机器学习应用</i>
+							</li>
+							<li>
+								
+								<i style="vertical-align: middle;">
+									使用python高级语言进行AI与大数据分析
+									</i>
+							</li>
+							<li>
+								
+								<i style="vertical-align: middle;">
+									利用高性能云端fpga加速大数据分析
+									</i>
+							</li>
+							<li>
+								
+								<i style="vertical-align: middle;">
+									使用Tensorflow的智能交通控制系统
+								</i>
+							</li>
+						</ul>
+					</article>
+
+				</div>
+				<div class="clear"></div>
+			</section>
+
+
 		</div>
 	</div>
-	<script type="text/javascript">
-		var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-		document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-	</script>
-	<script type="text/javascript">
-		var pageTracker = _gat._getTracker("UA-3753241-1");
-		pageTracker._initData();
-		pageTracker._trackPageview();
-	</script>
-</body>
 
+</body>
 </html>
