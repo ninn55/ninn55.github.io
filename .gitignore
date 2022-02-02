@@ -34,3 +34,5 @@ Temporary Items
 # debug file
 _site
 /style.css
+
+.jekyll-cache/Jekyll/Cache/*
