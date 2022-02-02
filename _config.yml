@@ -6,7 +6,7 @@ email: uestcnwx@gmail.com
 description: "Still figuring things out"
 keyword: "ninn55, Wenxu, NiuWenxu, WenxuNiu, wniu, nwx, python, AI, algorithm"
 url: "http://ninn55.github.io"  
-baseurl: "_posts"      # for example, '/blog' if your blog hosted on 'host/blog'
+baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/ninn55/ninn55.github.io" # you code repository
 
 # Sidebar settings
