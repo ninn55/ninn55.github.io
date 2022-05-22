@@ -1,16 +1,13 @@
 ---
 layout:     post
-title:      Mediapipe as an standalone application
+title:      Mediapipe Standalone
 date:       2022-01-01
 author:     niuwenxu
 header-img: img/post-bg-ios9-web.jpg
 catalog: true
 tags:
-    - Android
-    - Linux
     - Edge
     - AI
-    - Mediapipe
 ---
 # Mediapipe as an standalone application
 
