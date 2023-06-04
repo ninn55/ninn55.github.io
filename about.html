@@ -21,7 +21,7 @@ title: "About Me"
 </style>
 
 <head>
-	<title>WNiu - CV</title>
+	<title>WNiu - CV - EN</title>
 
 	<meta name="viewport" content="width=device-width" />
 	<meta name="description" content="The Curriculum Vitae of WNiu." />
@@ -71,8 +71,10 @@ title: "About Me"
 
 			<div id="name">
 				<h1 class="quickFade delayTwo">Niu Wenxu</h1>
-				<h2 class="quickFade delayThree">Software Engineer</h2>
-				<h2 class="quickFade delayThree">Algorithm Engineer</h2>
+				<h2 class="quickFade delayThree">AI Software/Algorithm Engineer</h2>
+				<h5 class="quickFade"></h2>
+					Tell me and I forget, teach me and I may remember, involve me and I learn.
+				</h5>
 			</div>
 
 			<div id="contactDetails" class="quickFade delayFour">
@@ -85,33 +87,28 @@ title: "About Me"
 					</li>
 					<li>
 						<span class="fa-stack">
+							<i class="fa fa-mobile fa-stack-1x"></i>
+						</span>
+						(+86) 17698063876
+					</li>
+					<!-- <li>
+						<span class="fa-stack">
 							<i class="fa fa-globe fa-stack-1x"></i>
 						</span>
 						<a href="https://ninn55.github.io">ninn55.github.io</a>
+					</li> -->
+					<li>
+						<span class="fa-stack">
+							<i class="fa fa-weixin fa-stack-1x"></i>
+						</span>
+						<a href="{{ "/img/wechat_QR.jpg" | prepend: site.baseurl }}" target="_blank">ninn55</a>
 					</li>
+
 					<li>
 						<span class="fa-stack">
 							<i class="fa fa-github fa-stack-1x"></i>
 						</span>
 						<a href="https://github.com/ninn55">ninn55</a>
-					</li>
-					<li>
-						<span class="fa-stack">
-							<i class="fa fa-mobile fa-stack-1x"></i>
-						</span>
-						(+76) 17698063876
-					</li>
-					<li>
-						<span class="fa-stack">
-							<i class="fa fa-mobile fa-stack-1x"></i>
-						</span>
-						(+852) 46402418
-					</li>
-					<li>
-						<span class="fa-stack">
-							<i class="fa fa-weixin fa-stack-1x"></i>
-						</span>
-						<a href="{{ "/img/wechat_QR.jpg" | prepend: site.baseurl }}" target="_blank">wx_niu0720</a>
 					</li>
 				</ul>
 			</div>
@@ -119,25 +116,6 @@ title: "About Me"
 		</div>
 
 		<div id="mainArea" class="quickFade delayFive">
-			<section>
-				<article>
-					<div class="sectionTitle">
-						<h1>Personal Profile</h1>
-					</div>
-
-					<div class="sectionContent">
-						<p>I am a reliable and curious individual with a long term relationship with mathematic and
-							electronics.
-							I am currently an MSc ICDE student at HKUST.
-							I have multiple experiences when it comes to computer vision and graphics.
-							Recently I took special interests in AI as well as edge computing.
-							constant exposure to new technology and nature curiosity trained me to quickly
-							grasp the new general concept even in a new area.
-						</p>
-					</div>
-				</article>
-				<div class="clear"></div>
-			</section>
 
 			<section>
 				<div class="sectionTitle">
@@ -147,16 +125,33 @@ title: "About Me"
 				<div class="sectionContent">
 					<article>
 						<h2>UESTC</h2>
-						<p class="subDetails">Bachelor of Engineering</p>
-						<p>GPA: 3.62/4.00; CET 4: 513/710; CET 6: 474/710; CET-SET 4: B;
-							NCR level 2 Certificate C;
+						<p>Bachelor of Engineering 2015-2019</p>
+						<p class="subDetails">
+							GPA: 3.62/4.00; TOEFL 98/120; GRE: 314+2.5; First Prize Scholarship; MCM/ICM Meritorious Winner;
+						</p>
+						<p class="subDetails">
+							Project: Real-time object detection on Jetson TX2;
+						</p>
+						<p class="subDetails">
+							Internship: Virtuos Chengdu: Participate in AAA game dev: Beyond Two Soul PC Port; 
+						</p>
+						<p class="subDetails">
+							Internship: China Mobile Research: Edge AI dev & SASS management system;
 						</p>
 					</article>
 
 					<article>
 						<h2>HKUST</h2>
-						<p class="subDetails">MSc ICDE</p>
-						<p>TOEFL IBT: 91/120; GRE: 314+2.5;</p>
+						<p>MSc ICDE 2019-2021</p>
+						<p class="subDetails">
+							Project: HLS FPGA Based human face counting system algorithm dev;
+						</p>
+						<p class="subDetails">
+							Internship: Slowfast action recognition, end to end data collection and processing engine
+						</p>
+						<p class="subDetails">
+							Internship: CRAFT + CRNN hand written Chinese character recognition; And deploy on Cloud and mini version on edge;
+						</p>
 					</article>
 				</div>
 				<div class="clear"></div>
@@ -169,33 +164,14 @@ title: "About Me"
 
 				<div class="sectionContent">
 					<ul class="keySkills">
-						<li>Scientific Computing</li>
 						<li>Computer Vision</li>
-						<li>Machine learning</li>
-					</ul>
-				</div>
-				<div class="clear"></div>
-			</section>
-
-			<section>
-				<div class="sectionTitle">
-					<h1>Awards</h1>
-				</div>
-
-				<div class="sectionContent">
-					<ul id="ranks">
-						<li>
-							<h3>First Prize Scholarship | UESTC </h3>
-							<div class="subDetails">December, 2016</div>
-						</li>
-						<li>
-							<h3>Second Prize in Sichuan Province | CUMCM </h3>
-							<p class="subDetails">September, 2017</p>
-						</li>
-						<li>
-							<h3>Meritorious Winner (top 10%) | COMAP MCM/ICM </h3>
-							<p class="subDetails">January, 2018</p>
-						</li>
+						<li>AI ML Algorithm</li>
+						<li>TinyML</li>
+						<li>Embedded dev</li>
+						<li>AI Operator dev</li>
+						<li>AI on edge</li>
+						<li>AI Core Arch</li>
+						<li>SIMT SIMD Systolic array</li>		
 					</ul>
 				</div>
 				<div class="clear"></div>
@@ -208,133 +184,59 @@ title: "About Me"
 
 				<div class="sectionContent">
 					<article>
-						<h2>Software Engineer</h2>
-						<p class="subDetails">Virtuos Holdings Pte. Ltd. | July. 2018 - Oct. 2018</p>
+						<h2>PengCheng Lab / Jide Tech co.</h2>
+						<p class="subDetails"> | 2020.02 - 2021.06</p>
 						<ul id="ranks">
 							<li>
-								
-								<i style="vertical-align: middle;">Port and debug AAA title targeting international
-									market.</i>
+								<i style="vertical-align: middle;">
+									Atlas800 AI HPC Perf Suit dev; Atlas 300 Face Detection/Recognition & Serverless Cloud native based Deployment platform;
+								</i>
 							</li>
 							<li>
-								
-								<i style="vertical-align: middle;">Research and develop different tools and plugin.</i>
+								<i style="vertical-align: middle;">
+									uAISS TinyML Inference on edge platform, 50% latency improvement compared with TFLM;
+								</i>
+							</li>
+							<li>
+								<i style="vertical-align: middle;">
+									AI operator dev on RISC-V vector extension;
+								</i>
+							</li>
+							<li>
+								<i style="vertical-align: middle;">
+									<b>
+										Based on custom RISC-V Chip, working with MLCommoms community to submit v0.5 MLPerf Tiny; Paper accepted NIPS 2021;
+									</b>
+								</i>
 							</li>
 						</ul>
 					</article>
 
 					<article>
-						<h2>Algorithm Engineer</h2>
-						<p class="subDetails">Tang Guo Tech Inc. | July 2016 - Sep. 2016</p>
+						<h2>Huawei Hisilicon</h2>
+						<p class="subDetails"> 2021.06 - Today</p>
 						<ul id="ranks">
 							<li>
-								
-								<i style="vertical-align: middle;">Build an algorithm to predict traffic through gate
-									targeting local traffic management
-									bureau.</i>
+								<i style="vertical-align: middle;">
+									Face Detection and landmark detection deployment on Hi3796, Allwinner T5, Hi3751 mobile GPU; Algorithm fine tuning.
+								</i>
 							</li>
 							<li>
-								
-								<i style="vertical-align: middle;">Grey System, Deep learning and Probability theory is
-									used.</i>
-							</li>
-						</ul>
-					</article>
-
-					<article>
-						<h2>Research Assistant Intern</h2>
-						<p class="subDetails">China Mobile Research Institute | Feb. 2019 - June. 2019</p>
-						<ul id="ranks">
-							<li>
-								
-								<i style="vertical-align: middle;">Market research on AI ASIC, smart drone and IoT
-									manufacturer.</i>
+								<i style="vertical-align: middle;">
+									Lane detection deployment on NXP IMX8; Road object detection algorithm deploymentt on Hisilicon SD3403 NPU; IR and RGB fusion with uvc and mipi camera;
+								</i>
 							</li>
 							<li>
-								
-								<i style="vertical-align: middle;">Implement a edge AI system using vue.js, Java and
-									Processing-in-Memory AI accelerator
-									chip.</i>
-							</li>
-						</ul>
-					</article>
-
-					<article>
-						<h2>Reseacher</h2>
-						<p class="subDetails">Undergraduate Research, Computer Vision Lab, UESTC | Feb. 2019 - June.
-							2019</p>
-						<ul id="ranks">
-							<li>
-								
-								<i style="vertical-align: middle;">Implementing a efficient real-time object recognition
-									system on Nvidia Jetson TX2.</i>
+								<i style="vertical-align: middle;">
+									Conv3D Stereo matching and Livox lidar 3D objection algorithm development and deployment on Jetson Xavier;
+								</i>
 							</li>
 							<li>
-								
-								<i style="vertical-align: middle;">Consists of CAN bus output, recognition using YOLO,
-									serialization using protobuff and pipelining with GStreamer.</i>
-							</li>
-						</ul>
-					</article>
-
-					<article>
-						<h2>Reseacher</h2>
-						<p class="subDetails">Undergraduate Research, Photoelectric Dept., UESTC | Feb. 2018 - June.
-							2018</p>
-						<ul id="ranks">
-							<li>
-								
-								<i style="vertical-align: middle;">Implementing software side of a Fringe Projection 3D
-									Reconstruction system with opengl and MFC.</i>
-							</li>
-						</ul>
-					</article>
-
-					<article>
-						<h2>Algorithm Engineer</h2>
-						<p class="subDetails">Wavewisdom Wave Group | Oct. 2019 - Jan. 2020</p>
-						<ul id="ranks">
-							<li>
-								
-								<i style="vertical-align: middle;">Developing a full blow video recognition algorithm
-									based on Slowfast.</i>
-							</li>
-							<li>
-								
-								<i style="vertical-align: middle;">Developing a full annotation toolchain with
-									generation pre-annotation and restructure.</i>
-							</li>
-							<li>
-								
-								<i style="vertical-align: middle;">Developing a web scraper to pull raw videos from a
-									dynamic website.</i>
-							</li>
-						</ul>
-					</article>
-
-					<article>
-						<h2>Trainee</h2>
-						<p class="subDetails">IDM2 Micro Electronics Node(MEN) FPGA Training | Sep. 2019 - Dec. 2019</p>
-						<ul id="ranks">
-							<li>
-								
-								<i style="vertical-align: middle;">Video analytics in Embedded Vision and Machine
-									Learning application.</i>
-							</li>
-							<li>
-								
-								<i style="vertical-align: middle;">AI and Big Data analysis using Python high-level
-									programming language.</i>
-							</li>
-							<li>
-								
-								<i style="vertical-align: middle;">Acceleration of Big data analysis in the High
-									Performance Cloud Computing environment.</i>
-							</li>
-							<li>
-								
-								<i style="vertical-align: middle;">Smart traffic control application using Deep Learning
-									Tensorflow design.</i>
+								<i style="vertical-align: middle;">
+									AI ASIC Hardware architecture design, Operator development, architecture verification case dev; 
+									Experience coding with SIMT SIMD and systolic array based matrix core architecture;
+									Experience working with AI core of different power consumption level, from mW mcu to autonamouse driving to HPC.
+								</i>
 							</li>
 						</ul>
 					</article>
