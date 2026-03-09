@@ -132,6 +132,7 @@ section:last-child {
 .sectionContent h2 {
 	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
 	font-size: 1.3em;
+	font-weight: 500;
 	margin-bottom: -2px;
 }
 
