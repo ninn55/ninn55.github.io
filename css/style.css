@@ -131,7 +131,7 @@ section:last-child {
 
 .sectionContent h2 {
 	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
-	font-size: 1.5em;
+	font-size: 1.3em;
 	margin-bottom: -2px;
 }
 
@@ -200,6 +200,18 @@ section:last-child {
 		-webkit-column-count:2;
 		column-count:2;
 	}
+}
+
+.keySkills2 {
+	list-style-type: none;
+	margin-bottom: 20px;
+	font-size: 1em;
+	color: #444;
+	font-weight: bold;
+}
+
+.keySkills2 ul li {
+	margin-bottom: 3px;
 }
 
 @media all and (max-width: 480px) {
