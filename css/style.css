@@ -18,13 +18,13 @@ html, body {background: #181818; font-family: 'Lato', helvetica, arial, sans-ser
 p {
 	font-size: 1em;
 	line-height: 1.4em;
-	margin-bottom: 20px;
+	margin-bottom: 12px;
 	color: #444;
 }
 
 #cv {
 	width: 90%;
-	max-width: 800px;
+	max-width: 950px;
 	background: #f3f3f3;
 	margin: 30px auto;
 }
@@ -101,7 +101,7 @@ p {
 
 section {
 	border-top: 1px solid #dedede;
-	padding: 20px 0 0;
+	padding: 10px 0 0;
 }
 
 section:first-child {
@@ -109,7 +109,7 @@ section:first-child {
 }
 
 section:last-child {
-	padding: 20px 0 10px;
+	padding: 10px 0 5px;
 }
 
 .sectionTitle {
